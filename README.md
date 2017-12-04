@@ -5,11 +5,11 @@ https://bearcoin.info
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2017-2018 BearCoin Developers
+--------------------------------
+About BearCoin - Bears Digital Money
+--------------------------------
 
-What is BearCoin?
-----------------
-
-BearCoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+BearCoin is a P2P digital currency using scrypt as a proof-of-work algorithm.
  - 10 minute block targets
  - subsidy halves in 840k blocks (~4 years)
  - 933.333.333 million total coins
