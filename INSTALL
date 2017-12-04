@@ -1,0 +1,9 @@
+Building BearCoin
+
+See doc/readme-qt.rst for instructions on building BearCoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of BearCoin.
+
+See doc/build-*.txt for instructions on building bearcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of BearCoin.
