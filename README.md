@@ -1,70 +1,35 @@
-BearCoin Source files
-================================
+Bearcoin is a Peer-to-Peer cryptocurrency built on Scrypt algo. Bearcoin nodes are built-in, no need to setup any additional files. with powerful development plans, roadmap and bears community, we can get something good by the end!
 
-https://bearcoin.info
+#UPDATE
+To solve the found problem and the late transaction confirmations, We completely rebuilt bear project to solve all of the problems we faced on the previous release. For this release we added more features to the project and made it more user/eco friendly. 
 
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2017-2018 BearCoin Developers
---------------------------------
-About BearCoin - Bears Digital Money
---------------------------------
 
-BearCoin is a P2P digital currency using scrypt as a proof-of-work algorithm.
- - 10 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - 933.333.333 million total coins
- - 500 coins per block
+Bearcoin details:- 
+Algorithm: Scrypt
+Type: PoW/PoS
+abbreviation: BAR
+RPC port: 28698
+P2P port: 28697
+Block reward: 500 coins
+PoS rate: 100% yearly
+Last PoW block: 9999
+Coinbase maturity: 10 blocks
+Target spacing: 64 seconds
+Target timespan: 1 block
+Transaction confirmations: 3 blocks
 
-For more information, as well as an immediately useable, binary version of
-the BearCoin client sofware, see https://bearcoin.info.
 
-License
--------
+Total coin supply   221052632 coins
 
-BearCoin is released under the terms of the MIT license. See `COPYING` for more
-information or see http://opensource.org/licenses/MIT.
 
-Development process
--------------------
+Links& Downloads:- 
 
-Developers work in their own trees, then submit pull requests when they think
-their feature or bug fix is ready.
+Official website: https://bearcoin.info
+Windows wallet: https://bearcoin.info/downloads/bearcoin-qt-windows.zip
+Linux wallet: https://bearcoin.info/downloads/bearcoin-qt-linux.tar.gz
+Daemon: https://bearcoin.info/downloads/bearcoin-daemon-linux.tar.gz
+Sourcecode: https://github.com/BearcoinProject/Bearcoin
+Official Block Explorer: http://192.64.116.249:3001/
+Twitter: https://twitter.com/Bearcoin_
 
-If it is a simple/trivial/non-controversial change, then one of the BearCoin
-development team members simply pulls it.
-
-If it is a *more complicated or potentially controversial* change, then the patch
-submitter will be asked to start a discussion with the devs and community.
-
-The patch will be accepted if there is broad consensus that it is a good thing.
-Developers should expect to rework and resubmit patches if the code doesn't
-match the project's coding conventions (see `doc/coding.txt`) or are
-controversial.
-
-The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/bearcoin-project/bearcoin/tags) are created
-regularly to indicate new official, stable release versions of BearCoin.
-
-Testing
--------
-
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test. Please be patient and help out, and
-remember this is a security-critical project where any mistake might cost people
-lots of money.
-
-### Automated Testing
-
-Developers are strongly encouraged to write unit tests for new code, and to
-submit new unit tests for old code.
-
-Unit tests for the core code are in `src/test/`. To compile and run them:
-
-    cd src; make -f makefile.unix test
-
-Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
-
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
-    make -f Makefile.test
-    ./bearcoin-qt_test
 
